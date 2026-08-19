@@ -11,6 +11,7 @@ Add these in order on your profile → **Add profile section → Featured → Li
 | Title | URL | Description (optional) |
 |-------|-----|------------------------|
 | Portfolio — TA ops & internal products | https://portfolio-seven-green-y9kadbqbqz.vercel.app | Case studies + verifiable public builds |
+| Portfolio on GitHub | https://github.com/Jarvis-123/portfolio | Site source (Next.js static export) |
 | QueryForge — citation-first doc Q&A | https://queryforge-nu.vercel.app | Intent routing, retrieval, source-linked answers |
 | QueryForge on GitHub | https://github.com/Jarvis-123/queryforge | Open-source RAG demo (Acme Corp corpus) |
 | CorpusSearch — markdown FTS demo | https://corpus-search.vercel.app | Keyword search + snippets, no LLM |
