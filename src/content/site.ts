@@ -41,6 +41,12 @@ export const site = {
       github: "https://github.com/Jarvis-123/formatdesk-lite",
       demo: "https://formatdesk-lite.vercel.app",
     },
+    laneForge: {
+      name: "LaneForge",
+      tagline: "Swimlane process builder",
+      github: "https://github.com/Jarvis-123/lane-forge",
+      demo: "https://lane-forge.vercel.app",
+    },
   },
   /** @deprecated Use proofProjects.queryForge */
   queryForge: {

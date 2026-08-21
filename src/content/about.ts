@@ -10,7 +10,7 @@ export const about = {
   title: "About",
   paragraphs: [
     "I’m Amit Singh—Talent Acquisition Operations Partner at RateGain. Most recruiting teams don’t fail because they lack effort; they fail because workflow, data, and tools don’t match how hiring actually runs across regions. I support TA across APMEA, NORAM, and Europe as a Darwinbox superuser: workflows, stages, approvals, templates, and the configuration choices that decide whether reporting and adoption work.",
-    "Where I’m different from typical TA Ops profiles: I design and ship internal software, not slide decks about AI. On my own initiative I’ve built an interconnected TA suite—playbooks, swimlane maps, SOPs, Ask TA, Format Desk, JD tooling—so recruiters find procedure fast and leaders see honest funnel health. I still own the ops work that feeds those tools: BGV lifecycle, TAT breach analysis, taxonomy standardization, and reporting hygiene leaders can trust.",
+    "Where I’m different from typical TA Ops profiles: I design and ship internal software, not slide decks about AI. On my own initiative I’ve built an interconnected TA suite—playbooks, swimlane maps, SOPs, a citation-first assistant, in-browser document prep, JD tooling—so recruiters find procedure fast and leaders see honest funnel health. I still own the ops work that feeds those tools: BGV lifecycle, TAT breach analysis, taxonomy standardization, and reporting hygiene leaders can trust.",
   ],
   experience: [
     {

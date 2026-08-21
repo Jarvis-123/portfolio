@@ -21,19 +21,19 @@ function HubDiagramMobile() {
     <div
       className="flex flex-col gap-1 bg-cool-gray p-4"
       role="img"
-      aria-label="Darwinbox feeds Playbook Hub, which serves Recruiter, TA Ops, and Hiring Manager"
+      aria-label="The HRIS feeds the TA hub, which serves Recruiter, TA Ops, and Hiring Manager"
     >
       <div className="rounded-xl bg-white px-4 py-3 text-center ring-1 ring-border">
-        <p className="text-sm font-semibold text-navy">Darwinbox</p>
+        <p className="text-sm font-semibold text-navy">HRIS</p>
         <p className="mt-0.5 text-xs text-body">Holds records</p>
       </div>
 
       <DownArrow />
 
       <div className="rounded-xl bg-navy px-4 py-4 text-center">
-        <p className="text-sm font-semibold text-white">Playbook Hub</p>
+        <p className="text-sm font-semibold text-white">TA hub</p>
         <p className="mt-1 text-xs text-lavender/80">Holds how we hire</p>
-        <p className="mt-1 text-[11px] text-white/60">SOPs · pipeline · Ask TA</p>
+        <p className="mt-1 text-[11px] text-white/60">SOPs · pipeline · assistant</p>
       </div>
 
       <DownArrow />
@@ -57,7 +57,7 @@ function HubDiagramDesktop() {
     <svg
       viewBox="0 0 720 220"
       role="img"
-      aria-label="Darwinbox feeds Playbook Hub, which serves Recruiter, TA Ops, and Hiring Manager"
+      aria-label="The HRIS feeds the TA hub, which serves Recruiter, TA Ops, and Hiring Manager"
       className="hidden h-auto w-full max-w-full md:block"
     >
       <rect width="720" height="220" fill="#F7F7FC" rx="16" />
@@ -72,7 +72,7 @@ function HubDiagramDesktop() {
         fontFamily="system-ui, sans-serif"
         fontWeight="600"
       >
-        Darwinbox
+        HRIS
       </text>
       <text
         x="94"
@@ -102,7 +102,7 @@ function HubDiagramDesktop() {
         fontFamily="system-ui, sans-serif"
         fontWeight="600"
       >
-        Playbook Hub
+        TA hub
       </text>
       <text
         x="328"
@@ -122,7 +122,7 @@ function HubDiagramDesktop() {
         fontSize="10"
         fontFamily="system-ui, sans-serif"
       >
-        SOPs · pipeline · Ask TA
+        SOPs · pipeline · assistant
       </text>
 
       <path d="M436 90 H480" stroke="#8012FF" strokeWidth="2" markerEnd="url(#hub-arrow)" />

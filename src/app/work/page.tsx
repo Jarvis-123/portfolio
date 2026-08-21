@@ -40,11 +40,11 @@ export default function WorkPage() {
         <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
           <div>
             <h2 className="text-lg font-semibold text-navy">
-              RateGain TA suite
+              Internal TA suite
             </h2>
             <p className="mt-1 max-w-2xl text-sm text-body">
               Built on my own initiative—what I designed, why it matters for TA Ops and HR,
-              and how Darwinbox stays system of record. Suite is built; rollout is in progress.
+              and how the HRIS stays system of record. Suite is built; rollout is in progress.
               Visuals are illustrative mocks, not production screenshots.
             </p>
           </div>

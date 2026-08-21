@@ -37,7 +37,7 @@ export function PlaybookDesktopMock({ className = "" }: MockProps) {
       </text>
       <rect x="504" y="24" width="112" height="28" rx="14" fill="#8012FF" />
       <text x="528" y="42" fill="#FFFFFF" fontSize="11" fontFamily="system-ui,sans-serif" fontWeight="600">
-        Ask TA
+        Assistant
       </text>
       {["Recruiter", "TA Ops", "HM", "HR Ops"].map((label, i) => (
         <g key={label}>
@@ -183,26 +183,26 @@ export function AskTaDesktopMock({ className = "" }: MockProps) {
       viewBox="0 0 640 400"
       className={`h-full w-full ${className}`}
       role="img"
-      aria-label={`${caption}. Ask TA panel with citations and scope.`}
+      aria-label={`${caption}. Assistant panel with citations and scope.`}
     >
       <rect width="640" height="400" fill="#F7F7FC" />
       <rect x="40" y="28" width="360" height="344" rx="16" fill="#FFFFFF" stroke="#EBEBEF" />
       <text x="60" y="56" fill="#242452" fontSize="14" fontFamily="system-ui,sans-serif" fontWeight="700">
-        Ask TA
+        Assistant
       </text>
       <text x="60" y="76" fill="#6B6B80" fontSize="11" fontFamily="system-ui,sans-serif">
         Search-backed answers · cites procedure
       </text>
       <rect x="60" y="96" width="320" height="48" rx="12" fill="#F7F7FC" />
       <text x="72" y="118" fill="#242452" fontSize="11" fontFamily="system-ui,sans-serif">
-        Who is the POC for Deel EOR?
+        Who owns offer approval?
       </text>
       <rect x="60" y="160" width="320" height="88" rx="12" fill="#FFFFFF" stroke="#EBEBEF" />
       <text x="72" y="184" fill="#242452" fontSize="11" fontFamily="system-ui,sans-serif">
         Based on hub search: see Points of Contact →
       </text>
       <text x="72" y="204" fill="#6B6B80" fontSize="11" fontFamily="system-ui,sans-serif">
-        Deel — EOR playbook · linked procedure
+        Offer approval SOP · linked procedure
       </text>
       <rect x="72" y="220" width="140" height="16" rx="8" fill="#8012FF" opacity="0.15" />
       <text x="84" y="232" fill="#8012FF" fontSize="10" fontFamily="system-ui,sans-serif" fontWeight="600">
@@ -245,13 +245,13 @@ export function AskTaMobileMock({ className = "" }: MockProps) {
       viewBox="0 0 220 390"
       className={`h-full w-full ${className}`}
       role="img"
-      aria-label={`${caption}. Floating Ask TA assistant.`}
+      aria-label={`${caption}. Floating assistant.`}
     >
       <rect width="220" height="390" rx="24" fill="#F7F7FC" />
       <rect x="20" y="40" width="180" height="280" rx="16" fill="#FFFFFF" stroke="#EBEBEF" />
       <rect x="20" y="40" width="180" height="40" rx="16" fill="#242452" />
       <text x="36" y="65" fill="#FFFFFF" fontSize="12" fontFamily="system-ui,sans-serif" fontWeight="600">
-        Ask TA
+        Assistant
       </text>
       <rect x="36" y="100" width="148" height="36" rx="10" fill="#F7F7FC" />
       <rect x="36" y="152" width="148" height="72" rx="10" fill="#FFFFFF" stroke="#EBEBEF" />
@@ -270,11 +270,11 @@ export function FormatDeskDesktopMock({ className = "" }: MockProps) {
       viewBox="0 0 640 400"
       className={`h-full w-full ${className}`}
       role="img"
-      aria-label={`${caption}. Format Desk browser PDF tools.`}
+      aria-label={`${caption}. Doc prep browser PDF tools.`}
     >
       <rect width="640" height="400" fill="#F7F7FC" />
       <text x="40" y="48" fill="#242452" fontSize="18" fontFamily="system-ui,sans-serif" fontWeight="700">
-        Format Desk
+        Doc Prep
       </text>
       <text x="40" y="72" fill="#6B6B80" fontSize="12" fontFamily="system-ui,sans-serif">
         Document prep without public converters
@@ -313,11 +313,11 @@ export function FormatDeskMobileMock({ className = "" }: MockProps) {
       viewBox="0 0 220 390"
       className={`h-full w-full ${className}`}
       role="img"
-      aria-label={`${caption}. Format Desk mobile tool list.`}
+      aria-label={`${caption}. Doc prep mobile tool list.`}
     >
       <rect width="220" height="390" rx="24" fill="#FFFFFF" stroke="#EBEBEF" />
       <text x="20" y="40" fill="#242452" fontSize="14" fontFamily="system-ui,sans-serif" fontWeight="700">
-        Format Desk
+        Doc Prep
       </text>
       {["Merge", "Split", "Images", "Office"].map((t, i) => (
         <rect

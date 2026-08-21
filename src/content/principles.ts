@@ -1,19 +1,19 @@
 export const principles = {
   title: "Principles",
   intro:
-    "How I ship internal TA products—the same discipline behind RateGain Playbook Hub.",
+    "How I ship internal TA products—the same discipline behind the hub.",
   items: [
     {
       title: "Honest data",
       body: "Show sync state and empty states clearly. Never imply live KPIs when the pipe isn’t connected.",
       practice:
-        "when Darwinbox isn't connected, the funnel tile reads \"No live data — last synced 3 days ago,\" never a zero that could pass for a real KPI.",
+        "when sync isn't connected, the funnel tile reads \"No live data — last synced 3 days ago,\" never a zero that could pass for a real KPI.",
     },
     {
-      title: "Darwinbox holds records; hub holds how",
+      title: "The HRIS holds records; the hub holds how",
       body: "Link out for REQ and candidate truth. The hub owns procedure, templates, and ops clarity—not a second ATS.",
       practice:
-        "a recruiter clicks a candidate in the hub and lands on the Darwinbox record — the hub never stores its own copy of REQ or candidate data.",
+        "a recruiter clicks a candidate in the hub and lands on the record in the system of record — the hub never stores its own copy of REQ or candidate data.",
     },
     {
       title: "Keyboard-first ops",
@@ -31,7 +31,7 @@ export const principles = {
       title: "AI cites procedure—or escalates",
       body: "Search-backed answers with links to hub pages. Weak matches say so. Humans own sensitive calls—not the bot.",
       practice:
-        "ask \"Who's the POC for Deel EOR?\" and Ask TA answers with a linked hub page; on a weak match it says so and routes you to a human instead of guessing.",
+        "ask who owns a process and the assistant answers with a linked hub page; on a weak match it says so and routes you to a human instead of guessing.",
     },
   ],
 } as const;

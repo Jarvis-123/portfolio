@@ -8,7 +8,7 @@ export const home = {
   outcomes: [
     "Recruiters find the right process in under a minute",
     "Leaders see honest funnel health—sync state visible, never fake KPIs",
-    "Ask TA cites hub procedure and escalates to humans—not candidate decisions",
+    "The assistant cites hub procedure and escalates to humans—not candidate decisions",
   ],
   ctaLabel: site.linkedInLabel,
   ctaHref: site.linkedIn,

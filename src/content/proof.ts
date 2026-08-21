@@ -5,7 +5,7 @@ const { proofProjects } = site;
 export const proof = {
   title: "Proof",
   intro:
-    "Case study frames below are illustrative mocks. These four public repos are IP-safe extracts of the Playbook Hub pattern — fictional Acme Corp corpus only.",
+    "Case study frames below are illustrative mocks. The public repos are personal projects built to work through these problems, running on fictional Acme Corp data only.",
   projects: [
     {
       ...proofProjects.queryForge,
@@ -27,6 +27,11 @@ export const proof = {
       description:
         "Merge PDFs in the browser — files never leave the device, no server converter.",
     },
+    {
+      ...proofProjects.laneForge,
+      description:
+        "Lane-based workflow maps with edit mode, presenter view, and JSON export — local-first.",
+    },
   ],
-  note: "RateGain Playbook Hub stays internal. These repos are the verifiable public artifacts.",
+  note: "The internal suite stays internal. These repos are the verifiable public artifacts.",
 } as const;

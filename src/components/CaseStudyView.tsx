@@ -41,7 +41,7 @@ export function CaseStudyView({ study }: CaseStudyViewProps) {
         </SurfaceCard>
       </div>
       <p className="mt-2 text-xs text-faint">
-        Illustrative mocks — not live RateGain screenshots. Internal URLs and data redacted by design.
+        Illustrative mocks — not live screenshots. Internal URLs and data redacted by design.
       </p>
 
       {study.narrative?.length ? (
