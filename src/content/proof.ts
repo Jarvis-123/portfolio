@@ -35,7 +35,7 @@ export const proof = {
     {
       ...proofProjects.pulseDesk,
       description:
-        "Daily readiness vs your baseline — sleep, HRV, resting HR, and cited explanations, not a black-box score.",
+        "Pick lose weight, build muscle, or general fitness — daily calories, meal outlines, and a workout schedule. Phone-friendly, no band.",
     },
   ],
   note: "The internal suite stays internal. These repos are the verifiable public artifacts.",
