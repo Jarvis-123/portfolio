@@ -51,7 +51,7 @@ export const site = {
       name: "PulseDesk",
       tagline: "Transparent daily readiness",
       github: "https://github.com/Jarvis-123/pulse-desk",
-      demo: "https://pulse-desk.vercel.app",
+      demo: "https://pulse-desk-five.vercel.app",
     },
   },
   /** @deprecated Use proofProjects.queryForge */
