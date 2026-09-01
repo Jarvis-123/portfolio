@@ -14,6 +14,8 @@ export const contact = {
     { label: "FormatDesk Lite on GitHub", href: site.proofProjects.formatdeskLite.github },
     { label: "LaneForge demo", href: site.proofProjects.laneForge.demo! },
     { label: "LaneForge on GitHub", href: site.proofProjects.laneForge.github },
+    { label: "PulseDesk demo", href: site.proofProjects.pulseDesk.demo! },
+    { label: "PulseDesk on GitHub", href: site.proofProjects.pulseDesk.github },
   ],
   ctaLabel: site.linkedInLabel,
   ctaHref: site.linkedIn,

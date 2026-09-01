@@ -47,6 +47,12 @@ export const site = {
       github: "https://github.com/Jarvis-123/lane-forge",
       demo: "https://lane-forge.vercel.app",
     },
+    pulseDesk: {
+      name: "PulseDesk",
+      tagline: "Transparent daily readiness",
+      github: "https://github.com/Jarvis-123/pulse-desk",
+      demo: "https://pulse-desk.vercel.app",
+    },
   },
   /** @deprecated Use proofProjects.queryForge */
   queryForge: {

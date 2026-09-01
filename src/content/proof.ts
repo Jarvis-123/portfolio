@@ -32,6 +32,11 @@ export const proof = {
       description:
         "Lane-based workflow maps with edit mode, presenter view, and JSON export — local-first.",
     },
+    {
+      ...proofProjects.pulseDesk,
+      description:
+        "Daily readiness vs your baseline — sleep, HRV, resting HR, and cited explanations, not a black-box score.",
+    },
   ],
   note: "The internal suite stays internal. These repos are the verifiable public artifacts.",
 } as const;
