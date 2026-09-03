@@ -1,5 +1,8 @@
 import { proof } from "@/content/proof";
 
+const LINK_CLASS =
+  "rounded text-xs font-medium text-navy underline-offset-4 hover:text-lavender hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lavender";
+
 export function ProofSection() {
   return (
     <section className="mt-12 rounded-2xl border border-border bg-cool-gray p-5 md:p-6">
@@ -19,7 +22,7 @@ export function ProofSection() {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs font-medium text-navy underline-offset-4 hover:text-lavender hover:underline"
+                className={LINK_CLASS}
               >
                 GitHub →
               </a>
@@ -28,9 +31,19 @@ export function ProofSection() {
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs font-medium text-navy underline-offset-4 hover:text-lavender hover:underline"
+                  className={LINK_CLASS}
                 >
                   Live demo →
+                </a>
+              ) : null}
+              {"npm" in project && project.npm ? (
+                <a
+                  href={project.npm}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={LINK_CLASS}
+                >
+                  npm →
                 </a>
               ) : null}
             </div>

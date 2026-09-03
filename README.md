@@ -13,7 +13,7 @@ Case-study site covering internal TA operations products and enablement work, pl
 | FormatDesk Lite | [demo](https://formatdesk-lite.vercel.app) | [repo](https://github.com/Jarvis-123/formatdesk-lite) | Client-side PDF merge, nothing uploaded |
 | LaneForge | [demo](https://lane-forge.vercel.app) | [repo](https://github.com/Jarvis-123/lane-forge) | Swimlane process builder, local-first with JSON export |
 | PulseDesk | [demo](https://pulse-desk-five.vercel.app) | [repo](https://github.com/Jarvis-123/pulse-desk) | Goal-based health planner — calories, meals, workouts |
-| IntentRouter | — | [repo](https://github.com/Jarvis-123/intent-router) | Zero-dependency query intent classification library |
+| IntentRouter | [npm](https://www.npmjs.com/package/query-intent-router) | [repo](https://github.com/Jarvis-123/intent-router) | Zero-dependency query intent classification library, published as `query-intent-router` |
 
 All demos run on fictional Acme Corp data.
 

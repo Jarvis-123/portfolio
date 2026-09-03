@@ -15,7 +15,7 @@ export const proof = {
     {
       ...proofProjects.intentRouter,
       description:
-        "Domain-agnostic query intent classifier — regex rules, priority stack, zero model calls.",
+        "Domain-agnostic query intent classifier — regex rules, priority stack, zero model calls. Published on npm as query-intent-router and used in production by QueryForge.",
     },
     {
       ...proofProjects.corpusSearch,

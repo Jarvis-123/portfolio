@@ -28,6 +28,7 @@ export const site = {
       tagline: "Regex intent classification (no LLM)",
       github: "https://github.com/Jarvis-123/intent-router",
       demo: null,
+      npm: "https://www.npmjs.com/package/query-intent-router",
     },
     corpusSearch: {
       name: "CorpusSearch",
