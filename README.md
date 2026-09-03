@@ -1,5 +1,7 @@
 # Amit Singh — Portfolio
 
+[![CI](https://github.com/Jarvis-123/portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Jarvis-123/portfolio/actions/workflows/ci.yml)
+
 Case-study site covering internal TA operations products and enablement work, plus links to the public projects below.
 
 **Live:** https://portfolio-seven-green-y9kadbqbqz.vercel.app
@@ -44,6 +46,14 @@ npm run build
 ```
 
 Static export lands in `out/`, ready for Vercel.
+
+## Test
+
+```bash
+npm test
+```
+
+Checks the content modules rather than the components: every project card has a working repo link and somewhere to go beyond it, case study slugs stay unique and URL-safe, each study has a body from either its narrative or the fallback fields, and no link is relative or http. It also fails if a genericised internal product name reappears anywhere in the published copy.
 
 ## Licence
 
