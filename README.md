@@ -14,7 +14,7 @@ Case-study site covering internal TA operations products and enablement work, pl
 | CorpusSearch | [demo](https://corpus-search.vercel.app) | [repo](https://github.com/Jarvis-123/corpus-search) | Markdown corpus search with snippets, no LLM |
 | FormatDesk Lite | [demo](https://formatdesk-lite.vercel.app) | [repo](https://github.com/Jarvis-123/formatdesk-lite) | Client-side PDF merge, nothing uploaded |
 | LaneForge | [demo](https://lane-forge.vercel.app) | [repo](https://github.com/Jarvis-123/lane-forge) | Swimlane process builder, local-first with JSON export |
-| PulseDesk | [demo](https://pulse-desk-five.vercel.app) | [repo](https://github.com/Jarvis-123/pulse-desk) | Goal-based health planner — calories, meals, workouts |
+| PulseDesk | [demo](https://pulse-desk-five.vercel.app) | [repo](https://github.com/Jarvis-123/pulse-desk) | Multi-profile health planner — Netflix-style switcher, learned suggestions |
 | IntentRouter | [npm](https://www.npmjs.com/package/query-intent-router) | [repo](https://github.com/Jarvis-123/intent-router) | Zero-dependency query intent classification library, published as `query-intent-router` |
 
 All demos run on fictional Acme Corp data.
@@ -28,7 +28,7 @@ Add these under **Add profile section → Featured → Links**:
 | Portfolio — TA ops & internal products | https://portfolio-seven-green-y9kadbqbqz.vercel.app | Case studies plus verifiable public builds |
 | QueryForge — citation-first doc Q&A | https://queryforge-nu.vercel.app | Intent routing, retrieval, source-linked answers |
 | LaneForge — swimlane process builder | https://lane-forge.vercel.app | Local-first process mapping with JSON export |
-| PulseDesk — goal-based health planner | https://pulse-desk-five.vercel.app | Calories, meals and workouts, phone-friendly |
+| PulseDesk — multi-profile health planner | https://pulse-desk-five.vercel.app | Netflix-style profiles, meals, workouts, local-first |
 | CorpusSearch — markdown search demo | https://corpus-search.vercel.app | Keyword search and snippets, no LLM |
 | FormatDesk Lite — merge PDFs in browser | https://formatdesk-lite.vercel.app | Client-side PDF merge, no server upload |
 

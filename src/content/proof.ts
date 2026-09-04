@@ -36,8 +36,9 @@ export const proof = {
     },
     {
       ...proofProjects.pulseDesk,
+      tagline: "Netflix-style profiles · meals & workouts",
       description:
-        "Pick lose weight, build muscle, or general fitness — daily calories, meal outlines, and a workout schedule. Phone-friendly, no band.",
+        "Goal-based health planner with Alex/Maya demo profiles — separate logs, progress charts, and learned suggestions per person. Portfolio-safe; local-first.",
     },
   ],
   note: "The internal suite stays internal. These repos are the verifiable public artifacts.",

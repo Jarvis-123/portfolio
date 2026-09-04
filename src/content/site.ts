@@ -50,7 +50,7 @@ export const site = {
     },
     pulseDesk: {
       name: "PulseDesk",
-      tagline: "Goal-based meals & workouts",
+      tagline: "Multi-profile health planner",
       github: "https://github.com/Jarvis-123/pulse-desk",
       demo: "https://pulse-desk-five.vercel.app",
     },
