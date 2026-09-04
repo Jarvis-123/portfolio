@@ -6,6 +6,8 @@ export const proof = {
   title: "Proof",
   intro:
     "Case study frames below are illustrative mocks. The public repos are personal projects built to work through these problems, running on fictional Acme Corp data only.",
+  rigor:
+    "Every repo runs its tests and a build on each push — 150 tests in total. IntentRouter is published on npm and QueryForge and CorpusSearch both install it from the registry.",
   projects: [
     {
       ...proofProjects.queryForge,

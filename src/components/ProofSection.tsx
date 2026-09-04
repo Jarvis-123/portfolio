@@ -8,6 +8,7 @@ export function ProofSection() {
     <section className="mt-12 rounded-2xl border border-border bg-cool-gray p-5 md:p-6">
       <h2 className="text-sm font-semibold uppercase tracking-wide text-muted">{proof.title}</h2>
       <p className="mt-2 max-w-2xl text-sm leading-relaxed text-body">{proof.intro}</p>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-muted">{proof.rigor}</p>
       <ul className="mt-5 grid gap-4 sm:grid-cols-2">
         {proof.projects.map((project) => (
           <li
