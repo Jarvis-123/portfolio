@@ -25,6 +25,13 @@
 .DS_Store
 *.pem
 
+# local screenshots and social/OG asset iterations, none of them referenced by
+# the site — public/social holds the announcement video, kept out of git for size
+/tmp-*.png
+/.cursor-home-preview.png
+/public/social/
+/public/demo-og/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
